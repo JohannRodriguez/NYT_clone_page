@@ -2,7 +2,7 @@
 
 > This is New York Times page clone, here we are cloning the "Space Ripples Reveal Big Bang’s Smoking Gun" article.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Images/app_screenshot.png)
 
 ## The project features includes:
 
