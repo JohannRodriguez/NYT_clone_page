@@ -24,15 +24,15 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+- To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Download Git at https://git-scm.com/downloads<br>
-Make a Github account with SSH key setup in your current machine.
+- Download Git at https://git-scm.com/downloads<br>
+- Make a Github account with SSH key setup in your current machine.
 
 ### Setup
-Clone the repository with terminal:<br>
-git@github.com:SevlaMare/mint-sign-up-clone.git
+- Clone the repository with terminal:<br>
+- Yet to be displayed.
 
 Ready to use
 
