@@ -4,11 +4,12 @@
 
 ![screenshot](./app_screenshot.png)
 
-The project features includes:<br>
--Embedding images<br>
--Working with forms<br>
--Floats and positioning<br>
--The box model<br>
+## The project features includes:
+
+- Embedding images<br>
+- Working with forms<br>
+- Floats and positioning<br>
+- The box model<br>
 
 
 ## Built With
