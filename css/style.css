@@ -71,13 +71,13 @@ nav {
 }
 
 .header-caption {
-  color: rgb(102, 101, 101);
+  color: rgb(88, 87, 87);
   margin: 5px -20vw;
   width: calc(600px + 34vw);
   font-size: 14px;
 }
 
 .header-caption span {
-  color: rgb(141, 140, 140);
+  color: gray;
   font-size: 12px;
 }
