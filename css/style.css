@@ -8,6 +8,8 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    color: #333;
 }
 
 .wrapper {
@@ -49,7 +51,7 @@ nav {
   width: 200px;
 }
 
-.nav-right button{
+.nav-right button {
   background-color: #567b95;
   color: aliceblue;
   border-radius: 5px;
@@ -59,20 +61,20 @@ nav {
  font-size: 12px;
 }
 
-.header-main h1{
+.header-main h1 {
   line-height: 45px;
   margin: 35px 0 30px 0;
 }
 
 
 .header-main img {
-  margin: 0 -20vw;
+  margin: 0 -17vw;
   width: calc(600px + 34vw);
 }
 
 .header-caption {
   color: rgb(102, 101, 101);
-  margin: 5px -20vw;
+  margin: 5px  -17vw;
   width: calc(600px + 34vw);
   font-size: 14px;
 }
@@ -80,4 +82,102 @@ nav {
 .header-caption span {
   color: rgb(141, 140, 140);
   font-size: 12px;
+}
+
+.wrapper > header {
+  margin-bottom: 40px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 0.96em;
+}
+
+.author a{
+  color: #333;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.article-meta {
+  font-size: 0.85em;
+  clear: both;
+  height: 59px;
+}
+
+
+
+.article-meta .social-img {
+  width: 26px;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.article-meta .big-social {
+  height: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.article-meta span {
+  line-height: 59px;
+}
+
+.article-meta div {
+  float: right;
+}
+
+.article-meta div.clear {
+  clear: both;
+}
+
+.article p {
+  line-height: 1.5em;
+  font-size: 1.25em;
+  margin: 15px 0;
+}
+
+.article .p-link {
+  color: #326891;
+  text-decoration: underline;
+}
+
+.article .cta-div {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.article .cta {
+  color: #326891;
+  font-weight: bold;
+}
+
+.article hr {
+  width: 80px;
+  background-color: white;
+  margin-left: calc(50% - 40px);
+}
+
+.article section {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.article section header {
+  grid-column-start: span 4;
+}
+
+.article section article {
+  width: 228px;
+}
+
+.article section article img {
+  width: 100%;
+}
+
+.article section div {
+  grid-column: 1 / 5;
 }
