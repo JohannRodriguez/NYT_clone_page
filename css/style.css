@@ -1,12 +1,3 @@
 body {
     margin: 0;
 }
-
-.banner:hover {
-  display: block;
-  background: url(https://d500.epimg.net/cincodias/imagenes/2018/11/13/lifestyle/1542113135_776401_1542116070_noticia_normal.jpg) no-repeat;
-  width: 200px; /* Width of new image */
-  height: 236px; /* Height of new image */
-  padding-left: 2000px; /* Equal to width of new image */
-  padding-top: 1000px;
-}
