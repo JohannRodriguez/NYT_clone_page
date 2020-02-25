@@ -255,6 +255,12 @@ h4 {
   width: 100%;
 }
 
+.more-articles div,
+.more-articles aside {
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
 /* Article Footer */
 .article-footer p {
   font-size: 12px;
@@ -339,12 +345,6 @@ h4 {
   padding: 15px 0;
   font-size: 18px;
   font-weight: normal;
-}
-
-.more-articles div,
-.more-articles aside {
-  border-top: 1px solid black;
-  padding-top: 20px;
 }
 
 .more-articles div.more-1 {
