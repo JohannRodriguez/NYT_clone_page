@@ -4,12 +4,13 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
 /* Main styles */
 body {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    overflow-x: hidden;
-    color: #333;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  color: #333;
 }
 
 .wrapper {
@@ -40,7 +41,8 @@ nav {
   align-items: center;
 }
 
-.nav-left img, h4 {
+.nav-left img,
+h4 {
   margin-left: 20px;
 }
 
@@ -58,8 +60,8 @@ nav {
   border-radius: 5px;
   border: solid 1px #326891;
   font-weight: bold;
- padding: 10px;
- font-size: 12px;
+  padding: 10px;
+  font-size: 12px;
 }
 
 /* Header section */
@@ -95,7 +97,7 @@ nav {
   font-size: 0.96em;
 }
 
-.author a{
+.author a {
   color: #333;
   border-bottom: 1px solid rgb(201, 201, 201);
 }
@@ -188,6 +190,7 @@ nav {
 .article-grid p {
   font-size: 0.9em;
 }
+
 .article-grid strong {
   font-size: 0.75em;
   margin-right: 10px;
@@ -261,6 +264,7 @@ nav {
   float: left;
   cursor: pointer;
 }
+
 .article-footer div div {
   float: right;
 }
@@ -308,7 +312,8 @@ nav {
   grid-template-rows: auto auto;
 }
 
-.more-articles div, .more-articles aside {
+.more-articles div,
+.more-articles aside {
   border-top: 1px solid black;
   padding-top: 20px;
 }
@@ -374,7 +379,7 @@ nav {
   font-weight: normal;
 }
 
-.more-articles div{
+.more-articles div {
   width: 100%;
 }
 
@@ -382,7 +387,7 @@ nav {
   text-align: right;
 }
 
-.more-articles div img{
+.more-articles div img {
   width: 100%;
 }
 
@@ -449,7 +454,7 @@ body > footer {
   border-top: 1px solid lightgray;
 }
 
-.company-links a{
+.company-links a {
   font-size: 11px;
   color: #666;
   margin: 7px;
