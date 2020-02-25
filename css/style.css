@@ -4,7 +4,7 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
+/* Main styles */
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -20,6 +20,7 @@ body {
   margin: 45px auto;
 }
 
+/* Navigation bar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -61,11 +62,11 @@ nav {
  font-size: 12px;
 }
 
+/* Header section */
 .header-main h1 {
   line-height: 45px;
   margin: 35px 0 30px 0;
 }
-
 
 .header-main img {
   margin: 0 -17vw;
@@ -88,6 +89,7 @@ nav {
   margin-bottom: 40px;
 }
 
+/* Article */
 .author {
   font-weight: bold;
   font-size: 0.96em;
@@ -158,7 +160,8 @@ nav {
   margin-left: calc(50% - 40px);
 }
 
-.article section {
+/* Article grid within main article */
+.article-grid {
   display: grid;
   grid-template-rows: auto 1fr 1fr auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -166,34 +169,35 @@ nav {
   grid-gap: 10px;
 }
 
-.article section header {
+.article-grid header {
   grid-column-start: span 4;
 }
 
-.article section article {
+.article-grid article {
   width: 228px;
 }
 
-.article section article img {
+.article-grid article img {
   width: 100%;
 }
 
-.article section div {
+.article-grid div {
   grid-column: 1 / 5;
 }
 
-.article section p {
+.article-grid p {
   font-size: 0.9em;
 }
-.article section strong {
+.article-grid strong {
   font-size: 0.75em;
   margin-right: 10px;
 }
 
-.article section hr {
+.article-grid hr {
   margin-left: 0;
 }
 
+/* Article video */
 .article-video {
   margin: 40px 0;
 }
@@ -213,6 +217,7 @@ nav {
   margin: 0 10px;
 }
 
+/* Article Image */
 .article-img {
   width: 130%;
   margin: 40px 0;
@@ -234,6 +239,7 @@ nav {
   margin: 0 10px;
 }
 
+/* Article Footer */
 .article-footer p {
   font-size: 12px;
   color: rgb(102, 102, 102);
@@ -259,6 +265,7 @@ nav {
   float: right;
 }
 
+/* Right floating aside */
 .editor-pick {
   position: absolute;
   float: right;
@@ -290,6 +297,7 @@ nav {
   align-items: center;
 }
 
+/* More articles section */
 .more-articles {
   display: grid;
   grid-gap: 30px;
@@ -378,6 +386,7 @@ nav {
   width: 100%;
 }
 
+/* Main footer */
 body > footer {
   display: flex;
   flex-direction: column;
@@ -413,13 +422,54 @@ body > footer {
   line-height: 1.8em;
 }
 
+.subscription-footer {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.subscribe-main {
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.subscribe-main img {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.page-options {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
 .company-links {
   display: flex;
   justify-content: center;
+  border-top: 1px solid lightgray;
 }
 
 .company-links a{
   font-size: 11px;
   color: #666;
   margin: 7px;
+}
+
+.cta-expand {
+  height: 55px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid black;
+  text-align: center;
+  line-height: 55px;
+  padding: 0 18%;
+}
+
+.cta-expand strong {
+  float: right;
+  margin-top: -53px;
+  cursor: pointer;
+  font-size: 0.8em;
 }
