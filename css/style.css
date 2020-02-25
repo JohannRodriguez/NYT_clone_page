@@ -163,6 +163,7 @@ nav {
   grid-template-rows: auto 1fr 1fr auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 40px 0 40px -156px;
+  grid-gap: 10px;
 }
 
 .article section header {
@@ -294,7 +295,7 @@ nav {
   grid-gap: 30px;
   width: 100%;
   height: auto;
-  padding: 0 5%;
+  padding: 0 18%;
   grid-template-columns: 1fr 315px;
   grid-template-rows: auto auto;
 }
@@ -316,7 +317,15 @@ nav {
 .more-articles div.more-1 a {
   grid-column: 1 / 4;
   color: black;
-  font-size: 0.9em;
+  font-size: 0.85em;
+  display: inline-block;
+  margin: 8px 0;
+}
+
+.more-articles figcaption,
+.more-articles p {
+  font-size: 0.7em;
+  color: rgb(153, 153, 153);
 }
 
 .more-articles div.more-2 {
@@ -344,10 +353,17 @@ nav {
 
 .more-articles aside h3 {
   line-height: 25px;
+  font-size: 1em;
+  padding-bottom: 15px;
 }
 
 .more-articles aside a {
   color: black;
+  display: block;
+  border-top: solid 1px lightgrey;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .more-articles div{
@@ -363,5 +379,47 @@ nav {
 }
 
 body > footer {
-  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: 70px 18%;
+  padding: 10px 0;
+  border-top: solid 1px lightgrey;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-logo-link {
+  font-size: 0.75em;
+  color: #567b95;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  font-size: 14px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links a {
+  color: black;
+  line-height: 1.8em;
+}
+
+.company-links {
+  display: flex;
+  justify-content: center;
+}
+
+.company-links a{
+  font-size: 11px;
+  color: #666;
+  margin: 7px;
 }
