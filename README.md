@@ -47,9 +47,9 @@ Ready to use
 
 👤 **Sebastian Gil Rodriguez**
 
-- Github: [@githubhandle](https://github.com/IBuggie)
-- Twitter: [@twitterhandle](https://twitter.com/IBuggie)
-- Linkedin: [linkedin](https://www.linkedin.com/in/IBuggie)
+- Github: [@sebGilR](https://github.com/sebGilR)
+- Twitter: [@sebGilR](https://twitter.com/sebGilR)
+- Linkedin: [sebastianGilRodriguez](https://www.linkedin.com/in/sebastianGilRodriguez)
 
 ## 🤝 Contributing
 
